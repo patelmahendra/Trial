@@ -8,3 +8,6 @@ def Homepage(request):
 
 def Indexpage(request):
     return render(request,'Login/index.html')
+
+def Index(request):
+    return HttpResponse("Index Page")
